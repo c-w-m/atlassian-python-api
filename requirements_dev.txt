@@ -1,0 +1,64 @@
+# dev devcontainer convenience
+# `pip freeze` version when not locked
+#-------------------------------------------------
+
+# ~~~~~~~ tox.ini ~~~~~~~
+# tox~=3.24.5
+# flake8~=4.0.1
+# flake8-bugbear~=22.3.23
+# flake8-typing-imports~=1.12.0
+# GitPython~=3.1.27
+# isort~=5.10.1
+# covdefaults~=2.2.0
+# coverage~=6.3.2
+# distlib~=0.3.4
+# mypy~=0.942
+# pep8-naming~=0.12.1
+# pytest~=7.1.1
+# pytest-env~=0.6.2
+# re-assert~=1.1.0
+# readme_renderer~=34.0
+# twine~=4.0.0
+# types-PyYAML~=6.0.5
+
+# ~~~~~~~ setup.py ~~~~~~~
+# none
+
+# ~~~~~~~ setup.cfg ~~~~~~~
+# pathspec~=0.9.0  # update from >= 0.5.3
+#pyyaml           # force ruamel.yaml instead
+
+# ~~~~~~~ vsc ~~~~~~~
+# pydantic~=1.9.0
+# ruamel.yaml~=0.17.21
+# ryd~=0.7.1
+# yamllint~=1.26.3  # bug fix included in this project DO NOT PIP INSTALL
+
+#testing =
+# flake8~=4.0.1
+# mypy~=0.942
+# mypy-extensions~=0.4.3
+# types-PyYAML~=6.0.5
+# pytest~=7.1.1
+# pytest-cov~=3.0.0
+# black~=22.3.0
+# tox~=3.24.5
+# pyright~=1.1.239
+
+# ~~~~~~~ pyproject.toml ~~~~~~~
+# none
+
+# ~~~~~~~ mkdocs.yml ~~~~~~~
+# none
+
+# ~~~~~~~ pre-commit-config.yaml ~~~~~~~
+# none
+
+# ~~~~~~~ bitbucket-pipelines.yml ~~~~~~~
+# none
+
+# ~~~~~~~ future vsc use ~~~~~~~
+# click~=8.1.2
+# uvloop~=0.16.0
+
+#-------------------------------------------------

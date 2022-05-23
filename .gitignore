@@ -1,6 +1,21 @@
+# project artifacts
+downloads/
+
+# certificate files
+certs/*.crt
+certs/*.pem
+
+# tox
+.tox/
+tox_run.md
+tox_run_r.md
+
+# cache
+.mypy_cache/
+.pytest_cache/
+
 .idea
 .sonarlint
-.pytest_cache
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
 # Byte-compiled / optimized / DLL files

@@ -1,0 +1,20 @@
+# user devcontainer convenience
+#`pip freeze` version when not locked
+#-------------------------------------------------
+
+# ~~~~~~~ vscode extensions support ~~~~~~~
+rich~=12.2.0
+
+# ~~~~~~~ project demo ~~~~~~~
+pathspec~=0.9.0
+
+# ~~~~~~~ awesome development ~~~~~~~
+# none
+
+# ~~~~~~~ notebooks & visualization ~~~~~~~
+ipykernel~=6.13.0
+jupyterlab~=3.3.4
+matplotlib~=3.5.1
+seaborn~=0.11.2
+
+#-------------------------------------------------
