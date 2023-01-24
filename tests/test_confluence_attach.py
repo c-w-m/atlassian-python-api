@@ -8,7 +8,7 @@ from atlassian import Confluence
 
 
 class TestConfluenceAttach(unittest.TestCase):
-    secret_file = "../credentials.secret"
+    secret_file = "workspaces/atlassian-python-api/credentials.secret"
 
     """
         Keep the credentials private, the file is excluded. There is an example for credentials.secret
